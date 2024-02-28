@@ -1,0 +1,34 @@
+.feedback {
+  background: #f8d57e;
+  margin-top: 80px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.feedback .card-frame {
+  background: #fff;
+  padding: 30px;
+  border-radius: 20px;
+  box-shadow: 34.854148864746094px 29.626028060913086px 48.34000015258789px 0px
+    #3366ff0d;
+}
+
+.feedback .user-info {
+  flex-direction: column;
+  width: 40%;
+}
+
+.feedback .feedback-info {
+  padding: 40px;
+  width: 60%;
+}
+
+.feedback .star-frame {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.feedback .feedback-star {
+  color: #f8d57e;
+  font-size: 25px;
+}
