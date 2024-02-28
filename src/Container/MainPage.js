@@ -3,6 +3,7 @@ import Home from './Home';
 import Introduction from './Introduction';
 import Feedback from './Feedback';
 import OurTeam from './OurTeam';
+import Integrations from './Integrations';
 
 function MainPage() {
   return (
@@ -11,6 +12,7 @@ function MainPage() {
       <Introduction />
       <Feedback />
       <OurTeam />
+      <Integrations />
     </>
   );
 }
