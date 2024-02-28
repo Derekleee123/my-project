@@ -27,7 +27,7 @@ function Home() {
           ’s Landing Page UI kit for Figma. No code required!
         </div>
 
-        <Row className="button-frame" justify="center" gutter={[10, 20]}>
+        <Row className="m-20" justify="center" gutter={[10, 20]}>
           <Col span={8} sm={8} xs={24} className="flex-center-center">
             <Button type="primary" className="flex-center-center">
               <img src={Rocket} alt="rocket" />

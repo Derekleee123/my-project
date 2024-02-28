@@ -38,7 +38,7 @@ function Feedback() {
         </div>
       </main>
 
-      <Row className="button-frame" justify="space-around" gutter={[0, 30]}>
+      <Row className="m-20" justify="space-around" gutter={[0, 30]}>
         {feedbackDom()}
       </Row>
     </div>

@@ -75,7 +75,7 @@ function Introduction() {
           Few good reasons why you should use Anima Landing Page Ui Kit to make your own pages.
         </div>
 
-        <Row className="button-frame" justify="space-around" gutter={[0, 30]}>
+        <Row className="m-20" justify="space-around" gutter={[0, 30]}>
           {featuresDom()}
         </Row>
 
@@ -91,7 +91,7 @@ function Introduction() {
           Explore our portfolio and see the latest projects that we&#39;ve brought to life.
         </div>
 
-        <Row className="button-frame" justify="space-evenly" gutter={[0, 30]}>
+        <Row className="m-20" justify="space-evenly" gutter={[0, 30]}>
           {imageCardDom(cardData)}
         </Row>
 

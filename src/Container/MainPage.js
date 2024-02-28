@@ -2,6 +2,7 @@ import React from 'react';
 import Home from './Home';
 import Introduction from './Introduction';
 import Feedback from './Feedback';
+import OurTeam from './OurTeam';
 
 function MainPage() {
   return (
@@ -9,6 +10,7 @@ function MainPage() {
       <Home />
       <Introduction />
       <Feedback />
+      <OurTeam />
     </>
   );
 }
