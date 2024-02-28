@@ -1,0 +1,91 @@
+.introduction main {
+  padding-top: 60px;
+}
+
+.introduction main .button-frame {
+  margin: 20px;
+}
+
+.introduction .box-frame {
+  gap: 20px;
+  width: 330px;
+  height: 80px;
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px solid #e5f4f2;
+  box-shadow: 34.854148864746094px 29.626028060913086px 48.34000015258789px 0px
+    #3366ff0d;
+}
+
+.introduction .phone-area {
+  position: relative;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-300px);
+  height: 500px;
+  width: 600px;
+  margin-bottom: 200px;
+}
+
+.introduction .white-star {
+  right: 120px;
+  bottom: 120px;
+  position: absolute;
+  z-index: 3;
+}
+
+.introduction .red-star {
+  left: 70px;
+  top: 140px;
+  position: absolute;
+  z-index: 3;
+}
+
+.introduction .phone {
+  position: absolute;
+  transform: translateX(-120px);
+  z-index: 5;
+  width: 260px;
+  height: 500px;
+  left: 50%;
+  bottom: -70px;
+}
+
+.introduction .commodity-background {
+  position: absolute;
+  width: 380px;
+  height: 380px;
+  border-radius: 50%;
+  background: #f8d57e;
+  left: 50%;
+  bottom: 0;
+  transform: translateX(-190px);
+}
+
+.introduction .image-card {
+  height: 330px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  border-radius: 20px;
+  box-shadow: 34.854148864746094px 29.626028060913086px 48.34000015258789px 0px
+    #3366ff0d;
+}
+
+.introduction .image-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+}
+
+.introduction .image-frame {
+  height: 180px;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+
+.image-card-description {
+  flex-direction: column;
+  padding: 0 25px;
+  gap: 10px;
+}

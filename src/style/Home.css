@@ -13,24 +13,6 @@
   background: rgba(0, 0, 0, 0);
 }
 
-.home main {
-  padding: 0 50px;
-}
-
-.home main .title {
-  text-align: center;
-  height: 170px;
-  font-size: 68px;
-  margin: 20px 0;
-}
-
-.home main .description {
-  text-align: center;
-  height: 60px;
-  font-size: 20px;
-  padding: 10px 50px;
-}
-
 .home main .text-blue {
   text-decoration: none;
   color: rgb(0, 99, 205);
