@@ -1,0 +1,53 @@
+.final-page {
+  padding-top: 40px;
+  background: #f8d57e;
+}
+
+.final-page main {
+  position: relative;
+}
+
+.final-page .button {
+  margin-top: 40px;
+  padding: 20px 0;
+  width: 220px;
+  left: 50%;
+  transform: translateX(-110px);
+}
+
+.final-page .desktop-area {
+  height: 250px;
+  overflow: hidden;
+}
+
+.final-page .desktop {
+  position: absolute;
+  height: 200px;
+}
+
+.final-page .white-star1 {
+  position: absolute;
+  left: 70px;
+  bottom: 120px;
+}
+
+.final-page .white-star2 {
+  position: absolute;
+  right: 100px;
+  bottom: 80px;
+}
+
+.final-page footer {
+  height: 50px;
+  background: #2d2d2d;
+  color: #fff;
+  padding: 20px 60px;
+}
+
+.final-page .copyright {
+  font-size: 14px;
+}
+
+.final-page .icon-frame {
+  gap: 20px;
+}

@@ -22,6 +22,12 @@
   align-items: flex-start;
 }
 
+.flex-center-right {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
 .m-20 {
   margin-top: 20px;
 }
