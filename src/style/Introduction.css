@@ -85,3 +85,39 @@
   padding: 0 25px;
   gap: 10px;
 }
+
+/* rwd */
+@media (max-width: 576px) {
+  .introduction .phone-area {
+    width: 320px;
+    height: 270px;
+    transform: translateX(-160px);
+    margin-top: 40px;
+    margin-bottom: 130px;
+  }
+
+  .introduction .phone {
+    width: 160px;
+    height: 300px;
+    transform: translateX(-70px);
+    bottom: -50px;
+  }
+
+  .introduction .commodity-background {
+    width: 224px;
+    height: 224px;
+    transform: translateX(-112px);
+  }
+
+  .introduction .red-star {
+    left: 22px;
+    top: 60px;
+    width: 60px;
+  }
+
+  .introduction .white-star {
+    right: 55px;
+    bottom: 75px;
+    width: 30px;
+  }
+}

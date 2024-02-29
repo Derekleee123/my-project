@@ -51,3 +51,39 @@
 .final-page .icon-frame {
   gap: 20px;
 }
+
+/* rwd */
+@media (max-width: 576px) {
+  .final-page .desktop-area {
+    height: 180px;
+  }
+
+  .final-page .desktop {
+    width: 280px;
+    height: 120px;
+  }
+
+  .final-page .white-star1 {
+    width: 18px;
+    left: 20px;
+    bottom: 80px;
+  }
+
+  .final-page .white-star2 {
+    width: 11px;
+    right: 30px;
+    bottom: 55px;
+  }
+
+  .final-page footer {
+    flex-direction: column-reverse;
+    align-items: flex-start;
+    padding: 30px 20px;
+    height: 80px;
+  }
+
+  .final-page footer svg {
+    width: 32px;
+    height: 32px;
+  }
+}

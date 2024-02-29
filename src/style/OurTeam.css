@@ -8,6 +8,7 @@
 }
 
 .ourteam .card-frame {
+  width: 100%;
   background: #fff;
   padding: 30px;
   border-radius: 20px;
@@ -32,4 +33,19 @@
 .ourteam .link-frame {
   width: 200px;
   font-weight: 700;
+}
+
+/* rwd */
+@media (max-width: 576px) {
+  .ourteam .card-frame {
+    padding: 20px;
+  }
+
+  :where(.css-dev-only-do-not-override-1k979oh).ant-col-20 {
+    max-width: fit-content;
+  }
+
+  .ourteam .link-frame {
+    width: 220px;
+  }
 }

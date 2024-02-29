@@ -36,3 +36,32 @@
   bottom: -90px;
   transform: translateX(-130px);
 }
+
+/* rwd */
+@media (max-width: 576px) {
+  .integrations {
+    padding-bottom: 0;
+  }
+
+  .integrations img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .integrations .icon-frame {
+    gap: 50px;
+    margin-top: 60px;
+  }
+
+  .integrations .column1 {
+    gap: 10px;
+  }
+
+  .integrations .column2 {
+    gap: 5px;
+  }
+
+  .integrations .column3 {
+    gap: 0px;
+  }
+}

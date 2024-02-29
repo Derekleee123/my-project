@@ -6,6 +6,7 @@
 }
 
 .feedback .card-frame {
+  width: 100%;
   background: #fff;
   padding: 30px;
   border-radius: 20px;
@@ -31,4 +32,30 @@
 .feedback .feedback-star {
   color: #f8d57e;
   font-size: 25px;
+}
+
+/* rwd */
+@media (max-width: 576px) {
+  .feedback .card-frame {
+    flex-direction: column;
+  }
+
+  .feedback .user-info {
+    width: auto;
+  }
+
+  .feedback .feedback-info {
+    padding: 30px 0;
+    width: auto;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    text-align: center;
+  }
+
+  .feedback .star-frame {
+    margin-bottom: 0;
+  }
 }

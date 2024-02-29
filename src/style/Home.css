@@ -1,6 +1,5 @@
 .home {
   background: #f8d57e;
-  height: 115vh;
   overflow: hidden;
 }
 
@@ -59,4 +58,36 @@
   left: 50%;
   bottom: 0;
   transform: translateX(-210px);
+}
+
+/* rwd */
+@media (max-width: 576px) {
+  .home .phone-area {
+    width: 315px;
+    height: 300px;
+    transform: translateX(-157.5px);
+  }
+
+  .home .phone {
+    width: 215px;
+    transform: translateX(-100px);
+    bottom: 20px;
+  }
+
+  .home .white-star {
+    width: 27px;
+    left: 10px;
+    bottom: 190px;
+  }
+
+  .home .red-star {
+    width: 27px;
+    right: 25px;
+  }
+
+  .home .commodity-background {
+    width: 300px;
+    height: 200px;
+    transform: translateX(-150px);
+  }
 }
